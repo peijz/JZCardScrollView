@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64680371D73E3780090FD2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D64680361D73E3780090FD2A /* main.m */; };
+		D646803A1D73E3780090FD2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64680391D73E3780090FD2A /* AppDelegate.m */; };
+		D646803D1D73E3780090FD2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D646803C1D73E3780090FD2A /* ViewController.m */; };
+		D64680401D73E3780090FD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646803E1D73E3780090FD2A /* Main.storyboard */; };
+		D64680421D73E3780090FD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64680411D73E3780090FD2A /* Assets.xcassets */; };
+		D64680451D73E3780090FD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64680431D73E3780090FD2A /* LaunchScreen.storyboard */; };
+		D646804F1D7413370090FD2A /* JZCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D646804E1D7413370090FD2A /* JZCardScrollView.m */; };
+		D64680511D7413500090FD2A /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D64680501D7413500090FD2A /* pic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D64680321D73E3780090FD2A /* JZCardScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZCardScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64680361D73E3780090FD2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D64680381D73E3780090FD2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D64680391D73E3780090FD2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D646803B1D73E3780090FD2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D646803C1D73E3780090FD2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D646803F1D73E3780090FD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64680411D73E3780090FD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64680441D73E3780090FD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D64680461D73E3780090FD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646804D1D7413370090FD2A /* JZCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCardScrollView.h; sourceTree = "<group>"; };
+		D646804E1D7413370090FD2A /* JZCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCardScrollView.m; sourceTree = "<group>"; };
+		D64680501D7413500090FD2A /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D646802F1D73E3780090FD2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64680291D73E3780090FD2A = {
+			isa = PBXGroup;
+			children = (
+				D64680341D73E3780090FD2A /* JZCardScrollView */,
+				D64680331D73E3780090FD2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64680331D73E3780090FD2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64680321D73E3780090FD2A /* JZCardScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64680341D73E3780090FD2A /* JZCardScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D64680501D7413500090FD2A /* pic.jpg */,
+				D646804C1D7413230090FD2A /* class */,
+				D64680381D73E3780090FD2A /* AppDelegate.h */,
+				D64680391D73E3780090FD2A /* AppDelegate.m */,
+				D646803B1D73E3780090FD2A /* ViewController.h */,
+				D646803C1D73E3780090FD2A /* ViewController.m */,
+				D646803E1D73E3780090FD2A /* Main.storyboard */,
+				D64680411D73E3780090FD2A /* Assets.xcassets */,
+				D64680431D73E3780090FD2A /* LaunchScreen.storyboard */,
+				D64680461D73E3780090FD2A /* Info.plist */,
+				D64680351D73E3780090FD2A /* Supporting Files */,
+			);
+			path = JZCardScrollView;
+			sourceTree = "<group>";
+		};
+		D64680351D73E3780090FD2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64680361D73E3780090FD2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D646804C1D7413230090FD2A /* class */ = {
+			isa = PBXGroup;
+			children = (
+				D646804D1D7413370090FD2A /* JZCardScrollView.h */,
+				D646804E1D7413370090FD2A /* JZCardScrollView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64680311D73E3780090FD2A /* JZCardScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64680491D73E3780090FD2A /* Build configuration list for PBXNativeTarget "JZCardScrollView" */;
+			buildPhases = (
+				D646802E1D73E3780090FD2A /* Sources */,
+				D646802F1D73E3780090FD2A /* Frameworks */,
+				D64680301D73E3780090FD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZCardScrollView;
+			productName = JZCardScrollView;
+			productReference = D64680321D73E3780090FD2A /* JZCardScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D646802A1D73E3780090FD2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wanhongios;
+				TargetAttributes = {
+					D64680311D73E3780090FD2A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D646802D1D73E3780090FD2A /* Build configuration list for PBXProject "JZCardScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64680291D73E3780090FD2A;
+			productRefGroup = D64680331D73E3780090FD2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64680311D73E3780090FD2A /* JZCardScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64680301D73E3780090FD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64680451D73E3780090FD2A /* LaunchScreen.storyboard in Resources */,
+				D64680421D73E3780090FD2A /* Assets.xcassets in Resources */,
+				D64680511D7413500090FD2A /* pic.jpg in Resources */,
+				D64680401D73E3780090FD2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D646802E1D73E3780090FD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646803D1D73E3780090FD2A /* ViewController.m in Sources */,
+				D646804F1D7413370090FD2A /* JZCardScrollView.m in Sources */,
+				D646803A1D73E3780090FD2A /* AppDelegate.m in Sources */,
+				D64680371D73E3780090FD2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D646803E1D73E3780090FD2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646803F1D73E3780090FD2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D64680431D73E3780090FD2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64680441D73E3780090FD2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64680471D73E3780090FD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D64680481D73E3780090FD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D646804A1D73E3780090FD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanhong.JZCardScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D646804B1D73E3780090FD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JZCardScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanhong.JZCardScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D646802D1D73E3780090FD2A /* Build configuration list for PBXProject "JZCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64680471D73E3780090FD2A /* Debug */,
+				D64680481D73E3780090FD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64680491D73E3780090FD2A /* Build configuration list for PBXNativeTarget "JZCardScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646804A1D73E3780090FD2A /* Debug */,
+				D646804B1D73E3780090FD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D646802A1D73E3780090FD2A /* Project object */;
+}
